@@ -3,13 +3,11 @@ simple app Speech Recognition
 
 added options assistant:
   Speech :
+```javascript  
   const dictate = () => {
   recognition.start();
   recognition.onresult = (event) => {
     const speechToText = event.results[0][0].transcript;
-
-```javascript
-
     paragraph.textContent = speechToText;
 
     if (event.results[0].isFinal) {

@@ -7,7 +7,9 @@ added options assistant:
   recognition.start();
   recognition.onresult = (event) => {
     const speechToText = event.results[0][0].transcript;
-    
+
+```javascript
+
     paragraph.textContent = speechToText;
 
     if (event.results[0].isFinal) {
@@ -27,4 +29,5 @@ added options assistant:
   }
 }
 
+```
 ![](Capture.PNG)

@@ -27,4 +27,4 @@ added options assistant:
   }
 }
 
-![](images for readme/Capture.PNG)
+![](Capture.PNG)
